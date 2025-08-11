@@ -82,7 +82,7 @@ pickle.dump(similarity, open('similarity.pkl', 'wb'))
 ```
 
 To reload:
-```bash
+```yaml
 df = pickle.load(open('movies.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 ```
