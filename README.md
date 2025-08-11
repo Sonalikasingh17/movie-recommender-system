@@ -82,12 +82,13 @@ pickle.dump(similarity, open('similarity.pkl', 'wb'))
 ```
 
 To reload:
-```
+```bash
 df = pickle.load(open('movies.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 ```
 
 ### Author
 Sonalika Singh
+
 IIT Madras
 
